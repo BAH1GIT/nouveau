@@ -4,7 +4,10 @@
 }
 body{
     padding: 15px;
-    font-size: ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 /* #menu{
     color:red

@@ -22,7 +22,7 @@
 // console.log(ElementLi);
 let ElementGp=document.createElement("div")
 let main=document.getElementById("main")
-let  ElementImg=document.createElement("img")
+let ElementImg=document.createElement("img")
 let ElementDivP=document.createElement("div")
 let ElementH5=document.createElement("h5")
 let ElementP=document.createElement("p")
@@ -44,24 +44,25 @@ ElementDivP.appendChild(ElementA)
 console.log(main);
 console.log(ElementDivP);
 
-ElementGp.style.width="250px"
+ElementGp.style.width="230px"
 ElementGp.style.height="390px"
 ElementGp.style.display="flex"
 ElementGp.style.flexDirection="column"
 ElementGp.style.alignItems="end"
 ElementGp.style.fontSize="20px"
 ElementGp.style.fontSize="20px"
+ElementGp.style.backgroundColor="#2c2b2bff"
 
 ElementImg.style.height="50%"
-ElementImg.style.border="1px solid black"
-ElementImg.alt="Ceci est une description de l\'image pour les lecteurs d\'écran"
+ElementImg.style.width="100%"
+// ElementImg.style.border="1px solid black"
+ElementImg.src="image/undraw_developer-avatar.png"
+ElementImg.style.alt="image"
 ElementImg.style.backgroundColor="#b82a2aff"
 
 ElementDivP.style.padding="20px"
-ElementDivP.style.border="2px solid white"
 ElementDivP.style.fontSize="16px"
 ElementDivP.style.color="#dee2e6"
-ElementDivP.style.backgroundColor="#2c2b2bff"
 
 ElementH5.style.color="orange"
 ElementH5.style.justifyContent="center"
